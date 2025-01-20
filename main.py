@@ -9,8 +9,8 @@ import random
 app = Flask(__name__)
 
 # 這裡填入你的 Channel Access Token 和 Channel Secret
-line_bot_api = LineBotApi('OT0DWAS10DQPErLbmh6D/R88fBZfXrHWG1irw3fw3pTvWOVgBB73Z/vJOC/eZcyr3W1h9IiAv+SwjE46GxrZyGGMtxTmCP3HavvBwZspFEYFTJimYTIvnMJwnfXZhzaG7iv8XYsswLmce3OhVS+wSQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('d801e427a0f04639fbeac31d6bc2d4db')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 
 all_word=[]
 part_word=[]
